@@ -1,0 +1,51 @@
+.main-title {
+  font-size: x-large;
+  color: white;
+  margin: 0 0 1rem;
+}
+
+body {
+  background-image: url("https://cdn.eso.org/images/screen/eso0932a.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  color: white;
+  font-style: oblique;
+  font-size: large;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  border: 3px double white;
+  padding: 2rem;
+  margin: 2rem;
+  width: min(90vw, 420px);
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1, h2 {
+  font-size: medium;
+  color: white;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
