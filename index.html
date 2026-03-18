@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Astro Weight Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1 class="main-title">Astro Weight Calculator</h1>
+    <h2>Your Weight</h2>
+    <input id="user-weight" type="number" min="0" placeholder="Weight (lbs)" required />
+
+    <p>Pick a planet!</p>
+    <select id="planets" aria-label="Select a planet"></select>
+
+    <h2>See how much you'd weigh!</h2>
+    <button id="calculate-button">Calculate</button>
+    <p id="output"></p>
+  </div>
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
